@@ -10,14 +10,21 @@
   },
   "dependencies": {
     "@next/font": "13.3.4",
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.0",
+    "@nivo/core": "^0.83.0",
+    "@nivo/heatmap": "^0.83.0",
     "@types/react-dom": "18.2.1",
+    "d3": "^7.8.4",
+    "d3-array": "^3.2.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
     "next": "13.3.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
     "typescript": "5.0.4"
   }
 }
